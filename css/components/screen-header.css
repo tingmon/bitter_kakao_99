@@ -4,6 +4,7 @@
   padding: var(--default-padding);
   padding-top: 50px;
   align-items: center;
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 30px;
@@ -11,4 +12,10 @@
 }
 .screen-header__icons span {
   margin-left: 15px;
+  position: relative;
+}
+.screen-header__notification {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }

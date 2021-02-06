@@ -6,23 +6,24 @@
   padding: 10px 0px;
   font-size: 15px;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 #friends-display-link i {
   opacity: 0.3;
 }
 
-.friends-screen {
+/* .friends-screen {
   padding: 0 var(--default-padding);
-}
+} */
 .friends-screen__channel {
   margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--default-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--blur-string);
 }
