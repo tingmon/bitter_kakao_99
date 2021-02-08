@@ -9,7 +9,7 @@
     <title>Chatting Room - Bitter Kakao 99%</title>
 </head>
 <body id="chat-screen">
-    <div class="status-bar">
+    <div class="status-bar status-bar--chat">
         <div class="status-bar__column">
             <span>No service</span>
             <i class="fas fa-wifi"></i>
@@ -46,7 +46,7 @@
             <span>Monday, February 7, 2021</span>
         </div>
 
-        <div class="message-row">
+        <div class="message-row partner">
             <img src="media/img/profile2.jpg" alt="">
             <div class="message-row__content">
                 <span class="message-row__partner">Mark Iuliano</span>
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <div class="message-row">
+        <div class="message-row partner">
             <img src="media/img/profile4.jpg" alt="">
             <div class="message-row__content">
                 <span class="message-row__partner">Frank Iuliano</span>
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="message-row same-partner">
+        <div class="message-row partner same-partner">
             <div class="same-partner__image"></div>
             <div class="message-row__content">
                 <div class="message-row__partner-message">
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div class="message-row">
+        <div class="message-row partner">
             <img src="media/img/profile2.jpg" alt="">
             <div class="message-row__content">
                 <span class="message-row__partner">Mark Iuliano</span>
@@ -98,6 +98,19 @@
             </div>
         </div>
     </main>
+
+    <form action="" class="keyboard">
+        <div class="textbox__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="textbox__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile fa-lg"></i>
+            <button class="textbox__submit">
+                <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
 
     <script src="https://kit.fontawesome.com/f592eace19.js" crossorigin="anonymous"></script>
 </body>

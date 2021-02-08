@@ -92,3 +92,24 @@
 .open-post__likes span {
   margin-left: 4px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: aliceblue;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: aliceblue;
+    transform: none;
+  }
+}
+
+.open-post__likes i:hover {
+  /* color: tomato; */
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite;
+}

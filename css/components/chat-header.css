@@ -5,6 +5,8 @@
   margin-top: 15px;
   margin-bottom: 15px;
   align-items: center;
+  position: fixed;
+  background-color: #9fb5d0;
 }
 .chat-header__title {
   font-size: 25px;

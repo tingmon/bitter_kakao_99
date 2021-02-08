@@ -16,6 +16,7 @@
   margin-left: 15px;
 }
 .settings__element__description {
+  font-size: 15px;
   display: block;
   color: var(--blur-string);
 }
