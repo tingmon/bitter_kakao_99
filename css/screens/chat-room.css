@@ -9,6 +9,10 @@
   box-sizing: border-box;
   top: 10px;
 }
+.chat-header--chat {
+  position: fixed;
+  background-color: #9fb5d0;
+}
 
 @keyframes fadeIn {
   from {
